@@ -4,6 +4,7 @@ import RefCounter from '../components/useRefHook/RefCounter';
 import NoReRender from '../components/useRefHook/NoReRender';
 import AccessDOM from '../components/useRefHook/AccessDOM';
 import PrevState from '../components/useRefHook/PrevState';
+import ObjectState from '../components/useStateHook/ObjectState';
 
 
 const Body = () => {
@@ -13,7 +14,8 @@ const Body = () => {
        {/* <RefCounter/> */}
        {/* <NoReRender/> */}
        {/* <AccessDOM/> */}
-       <PrevState/>
+       {/* <PrevState/> */}
+       <ObjectState/>
     </div>
   )
 }
