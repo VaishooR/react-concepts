@@ -5,6 +5,7 @@ import NoReRender from '../components/useRefHook/NoReRender';
 import AccessDOM from '../components/useRefHook/AccessDOM';
 import PrevState from '../components/useRefHook/PrevState';
 import ObjectState from '../components/useStateHook/ObjectState';
+import ParentContext from '../components/useContextHook/ParentContext';
 
 
 const Body = () => {
@@ -15,7 +16,8 @@ const Body = () => {
        {/* <NoReRender/> */}
        {/* <AccessDOM/> */}
        {/* <PrevState/> */}
-       <ObjectState/>
+       {/* <ObjectState/> */}
+       <ParentContext/>
     </div>
   )
 }
